@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>podperos - Tvoja dávka štýlu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">😏</span>
+                    <span class="logo-text">podperos</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Domov</a></li>
+                    <li><a href="#about">O nás</a></li>
+                    <li><a href="#products">Produkty</a></li>
+                    <li><a href="#locations">Automaty</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Pod perami,</span>
+                        <span class="title-line gradient-text">v pohode</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Moderné automatové predajne s najnovšími nikotínovými vrecúškami a trendovými príchuťami. 
+                        Nájdi svoj štýl, kedykoľvek a kdekoľvek.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#locations" class="btn btn-primary">
+                            <span>Nájdi automat</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#products" class="btn btn-secondary">Naše produkty</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="vending-machine">
+                        <div class="machine-body">
+                            <div class="machine-screen">
+                                <div class="screen-glow"></div>
+                                <div class="screen-text">podperos</div>
+                            </div>
+                            <div class="machine-slots">
+                                <div class="slot" style="animation-delay: 0s;"></div>
+                                <div class="slot" style="animation-delay: 0.1s;"></div>
+                                <div class="slot" style="animation-delay: 0.2s;"></div>
+                                <div class="slot" style="animation-delay: 0.3s;"></div>
+                                <div class="slot" style="animation-delay: 0.4s;"></div>
+                                <div class="slot" style="animation-delay: 0.5s;"></div>
+                            </div>
+                            <div class="machine-dispenser"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="floating-pouches">
+            <div class="pouch pouch-1">💊</div>
+            <div class="pouch pouch-2">💊</div>
+            <div class="pouch pouch-3">💊</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Čo je <span class="gradient-text">podperos</span>?</h2>
+                <p class="section-subtitle">
+                    Sme priekopníci moderného spôsobu predaja nikotínových produktov na Slovensku
+                </p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Naša misia</h3>
+                    <p>
+                        Prinášame inovatívny koncept automatových predajní s najnovšími 
+                        nikotínovými vrecúškami a špeciálnymi vapmi. Rýchlo, pohodlne, štýlovo.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">✨</div>
+                    <h3>Prečo podperos?</h3>
+                    <p>
+                        Názov "podperos" znamená "pod perami" - presne tam, kde patria naše 
+                        produkty. Sme vtipní, moderní a vždy v trende.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Vždy v pohybe</h3>
+                    <p>
+                        Naše automaty nájdeš na strategických miestach po celom Slovensku. 
+                        Neustále rozširujeme našu sieť.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Naše <span class="gradient-text">produkty</span></h2>
+                <p class="section-subtitle">
+                    Len to najlepšie pre tvoje pery
+                </p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">Populárne</div>
+                    <div class="product-icon">🌨️</div>
+                    <h3>Ice Cool</h3>
+                    <p>Osviežujúca mentolová chuť s extra silným nikotínovým nástupom</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bars">
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge gradient-badge">Nové</div>
+                    <div class="product-icon">🍓</div>
+                    <h3>Berry Blast</h3>
+                    <p>Ovocná explózia lesných plodov s jemným nikotínom</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bars">
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🍊</div>
+                    <h3>Citrus Kick</h3>
+                    <p>Sviežia citrusová kombinácia s energizujúcim efektom</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bars">
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">🔥</div>
+                    <h3>Fire Rush</h3>
+                    <p>Pre skúsených užívateľov - maximálna sila a intenzita</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bars">
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Top</div>
+                    <div class="product-icon">☕</div>
+                    <h3>Coffee Break</h3>
+                    <p>Kávová chuť pre ranné naštartovanie</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bars">
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">💨</div>
+                    <h3>Special Vapes</h3>
+                    <p>Špeciálne vapey s trendovými príchuťami - občas v ponuke</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bars">
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                            <div class="bar active"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="locations" id="locations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kde nás <span class="gradient-text">nájdeš</span>?</h2>
+                <p class="section-subtitle">
+                    Naše automaty sú rozmiestnené po celom Slovensku
+                </p>
+            </div>
+            <div class="locations-content">
+                <div class="locations-list">
+                    <div class="location-item">
+                        <div class="location-icon">📍</div>
+                        <div class="location-info">
+                            <h3>Bratislava - Centrum</h3>
+                            <p>Obchodná 23, vedľa stanice metra</p>
+                            <span class="location-status available">Dostupné</span>
+                        </div>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-icon">📍</div>
+                        <div class="location-info">
+                            <h3>Bratislava - Petržalka</h3>
+                            <p>OC Aupark, prízemie</p>
+                            <span class="location-status available">Dostupné</span>
+                        </div>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-icon">📍</div>
+                        <div class="location-info">
+                            <h3>Košice - Stred</h3>
+                            <p>Hlavná 45, pri fontáne</p>
+                            <span class="location-status available">Dostupné</span>
+                        </div>
+                    </div>
+                    <div class="location-item">
+                        <div class="location-icon">📍</div>
+                        <div class="location-info">
+                            <h3>Žilina - Centrum</h3>
+                            <p>Národná 12, pri Kauflande</p>
+                            <span class="location-status coming">Čoskoro</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="locations-map">
+                    <div class="map-placeholder">
+                        <div class="map-pin pin-1"></div>
+                        <div class="map-pin pin-2"></div>
+                        <div class="map-pin pin-3"></div>
+                        <div class="map-text">🗺️</div>
+                        <p>Interaktívna mapa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ako to <span class="gradient-text">funguje</span>?</h2>
+                <p class="section-subtitle">
+                    Jednoduché ako raz, dva, tri
+                </p>
+            </div>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">🔍</div>
+                    <h3>Nájdi automat</h3>
+                    <p>Pozri si naše lokácie a nájdi najbližší podperos automat</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">🛒</div>
+                    <h3>Vyber produkt</h3>
+                    <p>Vyber si z našej širokej ponuky produktov priamo na displeji</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">💳</div>
+                    <h3>Zaplať a užívaj</h3>
+                    <p>Zaplať kartou alebo hotovosťou a vychutnaj si svoj výber</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Kontaktuj <span class="gradient-text">nás</span></h2>
+                    <p>Máš otázky alebo návrhy? Ozvi sa nám!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:info@podperos.sk">info@podperos.sk</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>Telefón</h4>
+                                <a href="tel:+421900123456">+421 900 123 456</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">💬</div>
+                            <div>
+                                <h4>Sociálne siete</h4>
+                                <div class="social-links">
+                                    <a href="#" class="social-link">Instagram</a>
+                                    <a href="#" class="social-link">Facebook</a>
+                                    <a href="#" class="social-link">TikTok</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Tvoje meno" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Tvoj email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tvoja správa" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Odoslať správu</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M18 2L9 11M18 2L12 18L9 11M18 2L2 8L9 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">😏</span>
+                        <span class="logo-text">podperos</span>
+                    </div>
+                    <p>Pod perami, v pohode</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Rýchle odkazy</h4>
+                        <ul>
+                            <li><a href="#home">Domov</a></li>
+                            <li><a href="#about">O nás</a></li>
+                            <li><a href="#products">Produkty</a></li>
+                            <li><a href="#locations">Automaty</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Právne</h4>
+                        <ul>
+                            <li><a href="#">Obchodné podmienky</a></li>
+                            <li><a href="#">Ochrana súkromia</a></li>
+                            <li><a href="#">Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 podperos. Všetky práva vyhradené.</p>
+                <p class="footer-warning">⚠️ Produkty obsahujú nikotín. Nikotín je návyková látka. Len pre dospelých 18+</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
