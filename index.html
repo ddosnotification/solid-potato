@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PODPEROS - Tvoj Snus Pod Pery 💋</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-text">PODPEROS</span>
+                <span class="logo-emoji">💋</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Domov</a></li>
+                <li><a href="#about" class="nav-link">O Nás</a></li>
+                <li><a href="#products" class="nav-link">Produkty</a></li>
+                <li><a href="#vending" class="nav-link">Automaty</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">TVOJ SNUS</span>
+                    <span class="title-line highlight">POD PERY</span>
+                </h1>
+                <p class="hero-subtitle">Nové, trendové nikotínové vrecúška na dosah ruky. 24/7 v našich automatoch.</p>
+                <div class="hero-buttons">
+                    <a href="#vending" class="btn btn-primary">Nájdi Automat</a>
+                    <a href="#products" class="btn btn-secondary">Naše Produkty</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="lip-container">
+                    <div class="lip-icon">
+                        <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 20 50 Q 50 20, 100 50 Q 150 20, 180 50 Q 150 80, 100 60 Q 50 80, 20 50" fill="url(#lipGradient)" stroke="#ff1744" stroke-width="3"/>
+                            <defs>
+                                <linearGradient id="lipGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#ff1744;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#d01040;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <!-- Snus pouch under lip -->
+                            <ellipse cx="100" cy="48" rx="20" ry="8" fill="#fff" opacity="0.9"/>
+                            <ellipse cx="100" cy="48" rx="18" ry="6" fill="#00e5ff"/>
+                        </svg>
+                    </div>
+                    <div class="pouch-animation">
+                        <div class="pouch">💊</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="arrow-down"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Čo Je PODPEROS?</h2>
+                <p class="section-subtitle">Snus po novom. Moderný. Dostupný. Vždy.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Vždy Po Ruke</h3>
+                    <p>Naše automaty sú rozmiestnené na strategických miestach. Dostaneš čo potrebuješ, kedykoľvek to potrebuješ.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">✨</div>
+                    <h3>Len To Najlepšie</h3>
+                    <p>Vyberáme len tie najtrendovejšie značky a najpopulárnejšie príchute. Fresh sortiment každý týždeň.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Rýchlo & Jednoducho</h3>
+                    <p>Žiadne čakanie v rade. Kúp, vezmi si a užívaj. To je náš štýl.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🔥</div>
+                    <h3>Špeciálne Edície</h3>
+                    <p>Občas máme aj špeciálne nikotínové vape edície pre tých, čo chcú niečo iné.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Naše Produkty</h2>
+                <p class="section-subtitle">Prémiové nikotínové vrecúška a limitované edície</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">TOP</div>
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <span class="product-emoji">❄️</span>
+                        </div>
+                    </div>
+                    <h3 class="product-name">ICE MINT</h3>
+                    <p class="product-desc">Intenzívna mäta s ľadovým efektom</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bar">
+                            <div class="strength-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge new">NEW</div>
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <span class="product-emoji">🍓</span>
+                        </div>
+                    </div>
+                    <h3 class="product-name">BERRY BLAST</h3>
+                    <p class="product-desc">Sladké lesné ovocie s kyselým dozvukom</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bar">
+                            <div class="strength-fill" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <span class="product-emoji">🌊</span>
+                        </div>
+                    </div>
+                    <h3 class="product-name">OCEAN BREEZE</h3>
+                    <p class="product-desc">Osvežujúca mentolová sviežosť</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bar">
+                            <div class="strength-fill" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">HOT</div>
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            <span class="product-emoji">🍑</span>
+                        </div>
+                    </div>
+                    <h3 class="product-name">PEACH PARADISE</h3>
+                    <p class="product-desc">Sladká broskyna s tropickým nádychom</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bar">
+                            <div class="strength-fill" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                            <span class="product-emoji">🍋</span>
+                        </div>
+                    </div>
+                    <h3 class="product-name">CITRUS KICK</h3>
+                    <p class="product-desc">Pikantný citrón s limetkovým kopom</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Sila:</span>
+                        <div class="strength-bar">
+                            <div class="strength-fill" style="width: 65%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card special">
+                    <div class="product-badge special">SPECIAL</div>
+                    <div class="product-image">
+                        <div class="product-placeholder" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
+                            <span class="product-emoji">💨</span>
+                        </div>
+                    </div>
+                    <h3 class="product-name">VAPE EDITION</h3>
+                    <p class="product-desc">Limitované nikotínové vape edície</p>
+                    <div class="product-strength">
+                        <span class="strength-label">Dostupnosť:</span>
+                        <span class="limited-text">Obmedzené</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vending Machine Section -->
+    <section id="vending" class="vending">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Naše Automaty</h2>
+                <p class="section-subtitle">Nájdi najbližší PODPEROS automat</p>
+            </div>
+            <div class="vending-content">
+                <div class="vending-visual">
+                    <div class="vending-machine">
+                        <div class="machine-body">
+                            <div class="machine-screen">
+                                <div class="screen-text">PODPEROS</div>
+                                <div class="screen-subtext">24/7</div>
+                            </div>
+                            <div class="machine-products">
+                                <div class="machine-row">
+                                    <div class="machine-product"></div>
+                                    <div class="machine-product"></div>
+                                    <div class="machine-product"></div>
+                                    <div class="machine-product"></div>
+                                </div>
+                                <div class="machine-row">
+                                    <div class="machine-product"></div>
+                                    <div class="machine-product"></div>
+                                    <div class="machine-product"></div>
+                                    <div class="machine-product"></div>
+                                </div>
+                                <div class="machine-row">
+                                    <div class="machine-product"></div>
+                                    <div class="machine-product"></div>
+                                    <div class="machine-product"></div>
+                                    <div class="machine-product"></div>
+                                </div>
+                            </div>
+                            <div class="machine-dispenser"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vending-info">
+                    <h3>Kde Nás Nájdeš?</h3>
+                    <div class="location-list">
+                        <div class="location-item">
+                            <div class="location-icon">📍</div>
+                            <div class="location-details">
+                                <h4>Bratislava - Centrum</h4>
+                                <p>Obchodná ulica 25, pred OC Eurovea</p>
+                            </div>
+                        </div>
+                        <div class="location-item">
+                            <div class="location-icon">📍</div>
+                            <div class="location-details">
+                                <h4>Bratislava - Ružinov</h4>
+                                <p>Galvaniho 15, autobusová stanica Miletičova</p>
+                            </div>
+                        </div>
+                        <div class="location-item">
+                            <div class="location-icon">📍</div>
+                            <div class="location-details">
+                                <h4>Košice - Centrum</h4>
+                                <p>Hlavná ulica 48, blízko Dómu sv. Alžbety</p>
+                            </div>
+                        </div>
+                        <div class="location-item">
+                            <div class="location-icon">📍</div>
+                            <div class="location-details">
+                                <h4>Žilina - Centrum</h4>
+                                <p>Národná 7, pri autobusovej stanici</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vending-features">
+                        <div class="feature">
+                            <span class="feature-icon">💳</span>
+                            <span>Platba kartou</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🕐</span>
+                            <span>Non-stop</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">🎯</span>
+                            <span>Jednoduché použitie</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Časté Otázky</h2>
+                <p class="section-subtitle">Všetko čo potrebuješ vedieť</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Ako funguje automat?</h4>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Je to jednoduché! Vyber si produkt, zaplať kartou a vezmi si svoj snus. Celý proces trvá menej ako minútu.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Koľko stoja produkty?</h4>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ceny sa pohybují od 3,99€ do 6,99€ v závislosti od značky a druhu. Špeciálne edície môžu mať inú cenu.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Je potrebné mať 18 rokov?</h4>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Áno! Naše produkty sú určené výhradne pre dospelých 18+. Automat vyžaduje overenie veku.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Aké značky máte?</h4>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Máme všetky top značky ako VELO, LYFT, NORDIC SPIRIT, WHITE FOX a mnoho ďalších. Sortiment pravidelne aktualizujeme.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontaktuj Nás</h2>
+                <p class="section-subtitle">Máš otázku? Sme tu pre teba!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h4>Email</h4>
+                        <a href="mailto:info@podperos.sk">info@podperos.sk</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <h4>Telefón</h4>
+                        <a href="tel:+421900123456">+421 900 123 456</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💬</div>
+                        <h4>Instagram</h4>
+                        <a href="https://instagram.com/podperos_sk" target="_blank">@podperos_sk</a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Tvoje meno" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tvoja správa" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Odoslať správu</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-text">PODPEROS</span>
+                        <span class="logo-emoji">💋</span>
+                    </div>
+                    <p>Tvoj snus pod pery. Vždy po ruke.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Rýchle Odkazy</h4>
+                    <ul>
+                        <li><a href="#home">Domov</a></li>
+                        <li><a href="#about">O Nás</a></li>
+                        <li><a href="#products">Produkty</a></li>
+                        <li><a href="#vending">Automaty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-legal">
+                    <h4>Právne Informácie</h4>
+                    <ul>
+                        <li><a href="#">Obchodné podmienky</a></li>
+                        <li><a href="#">Ochrana súkromia</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PODPEROS. Všetky práva vyhradené.</p>
+                <p class="age-warning">⚠️ Produkty sú určené výhradne pre osoby 18+</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
